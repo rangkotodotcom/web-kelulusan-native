@@ -1,0 +1,74 @@
+body{
+	margin:0px auto;
+	padding:0px;
+	min-height: 100%;
+	background-image: url('../img/tetap/back.png');
+}
+.canvas{
+	width:960px;
+	margin:0 auto;
+	border:1px solid silver;
+	border-radius: 20px;
+	box-shadow: 7px 7px 10px 8px rgba(0,0,0,.75);
+}
+.header{
+	font-size:24px;
+	background-color:#00bfff;
+	padding:2px;
+	font-family: arial;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+.menu{
+	height:40px;
+	background-color:#adff2f;
+	font-family: arial;
+}
+.menu ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.menu ul li{
+	display:inline-table;
+}
+.menu ul li a:hover{
+	background-color:#d2691e;
+	color:white;
+}
+.menu ul li a{
+	display:block;
+	text-decoration:none;
+	padding:0 7px;
+	line-height:40px;
+	color:black;
+}
+.utama ul{
+	display:none;
+	position:absolute;
+	z-index:2;
+}
+.utama:hover ul{
+	display:block;
+}
+.utama ul li{
+	display:block;
+	background-color:#e6e6fa;
+	width:140px;
+}
+.right{
+	float: right;
+	line-height: 40px;
+}
+.content{
+	min-height:600px;
+	background-color:silver;
+	
+}
+.footer{
+	text-align:center;
+	background-color:#00bfff;
+	padding:10px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
